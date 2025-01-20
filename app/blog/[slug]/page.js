@@ -1,8 +1,10 @@
 import React from 'react'
 
-const SlugPage = () => {
+const SlugPage = ({params}) => {
   return (
-    <div>SlugPage</div>
+    <div>
+      {params.slug}
+    </div>
   )
 }
 
